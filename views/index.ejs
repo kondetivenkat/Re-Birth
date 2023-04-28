@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Re-Birth</title>
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body>
+  <nav class="navbar background h-nav">
+    <ul class="nav-list v-class">
+      <li><a href="/">Home</a></li>
+      <li><a href="/AboutUs">About</a></li>
+      <li><a href="#contact">Contact us</a></li>
+    </ul>
+    <!-- <div class="rightNav v-class">
+      <input type="text" name="search" placeholder="search something" id="search" style="color:rgb(74, 74, 74)">
+      <button class="btn btn-sm">search</button>
+    </div> -->
+    <div class="burger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </nav>
+
+  <section class="background firstSection">
+    <div class="box-main">
+      <div class="firstHalf">
+        <p class="text-big">Re-Birth</p>
+        <p class="text-small">The saddest part is that some individuals in the world already know when they are going to pass away (for instance, cancer sufferers, etc.), and they are unable to change it. They remain miserable for the rest of their lives, as do those around them. Re-Birth brings them some measure of solace. If a patient strikes a deal with us, we can travel with him or her for approximately a week to gather his or her voice recordings, photos, and other data to develop a virtual human clone identical to the original. So that at least knowing that his or her loved ones are not alone would allow him or her to pass away gently.
+        </p><br><br>
+        <form action="/details" method="post">
+          <div class="buttons">
+            <button class="btn">Book an order</button>
+          </div>
+        </form>
+        
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <section class="contact" id="contact">
+    <h2 class="text-center">Contact us</h2>
+    <div class="form">
+      <input type="text" name="name" id="name" class="form-input" placeholder="Enter your name">
+      <input type="text" name="phone" id="phone" class="form-input" placeholder="Enter your phone number">
+      <input type="email" name="email" id="email" class="form-input" placeholder="Enter your email">
+      <textarea name="text" id="text" cols="30" rows="10" class="form-input" placeholder="type your concern !"></textarea>
+      <button class="btn submit">Submit</button>
+    </div>
+  </section>
+  <footer class="text-footer background">
+    <p>
+      Copyrights &copy; 2027 - All rights are reserved
+    </p>
+  </footer>
+  <script >
+     burger=document.querySelector('.burger')
+     navbar=document.querySelector('.navbar')
+    rightNav=document.querySelector('.rightNav')
+    navlist=document.querySelector('.nav-list')
+
+
+
+    burger=addEventListener('click',()=>{
+    rightNav.classList.toggle('v-class')
+    navlist.classList.toggle('v-class')
+    navbar.classList.toggle('h-nav')
+})
+  </script>
+</body>
+
+</html>

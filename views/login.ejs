@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book now</title>
+    <link rel="stylesheet" href="/css/login.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</head>
+<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+
+<nav class="navbar background h-nav">
+    <ul class="nav-list v-class">
+      <li><a href="/">Home</a></li>
+      <li><a href="/AboutUs">About</a></li>
+      <li><a href="#contact">Contact us</a></li>
+    </ul>
+    <!-- <div class="rightNav v-class">
+      <input type="text" name="search" placeholder="search something" id="search" style="color:rgb(74, 74, 74)">
+      <button class="btn btn-sm">search</button>
+    </div> -->
+    <div class="burger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </nav>
+
+<div class="container">
+<div class="row">
+		<div class="col-12">
+			<!-- Page title -->
+
+			<!-- Form START -->
+			<form class="form" action="/package" method="post">
+						<div class="my-5">
+				<h2 style="text-align: center;">Provide your details</h2>
+			</div>
+				<div class="row" style=" padding-left: 20%;padding-right: 20%;">
+					<!-- Contact detail -->
+							<div class="row">
+								<!-- Name -->
+								<div class="col-md-12">
+									<label class="form-label">Name *</label>
+									<input type="text" class="form-control" name="Name" placeholder="Name" aria-label="First name">
+								</div>
+								<!--Guardian's Name -->
+								<div class="col-md-12">
+									<label class="form-label">Guardian *</label>
+									<input type="text" class="form-control" name="Guardian" placeholder="Guardian">
+								</div>								
+								<!-- Mobile number -->
+								<div class="col-md-12">
+									<label class="form-label">Mobile number *</label>
+									<input type="text" class="form-control" name="Mobile" placeholder="Mobile number">
+								</div>
+								<!-- Email -->
+								<div class="col-md-12">
+									<label  class="form-label">Email *</label>
+									<input type="email" class="form-control" id="inputEmail4" name="Email" placeholder="Email">
+								</div>
+								<!-- Skype -->
+								<div class="col-md-12">
+									<label class="form-label">Address</label><br>
+									<textarea name="Address" id="Address" cols="30" rows="5" class="form-control" placeholder="Address"></textarea>
+								</div>
+							</div> <!-- Row END -->
+				
+				<!-- button -->
+				<div class="text-center" style="margin-top: 10px;">
+					<input type="submit" class="btn btn-primary btn-lg" value="PLACE YOUR ORDER" style="opacity: 1.2;filter: contrast(20);">
+				</div>
+			</div>
+			</form> <!-- Form END -->
+		</div>
+	</div>
+	</div>
+</body>
+</html>

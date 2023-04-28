@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Virtual Clone - Pricing</title>
+  <link rel="stylesheet" type="text/css" href="/css/package.css">
+  <link rel="stylesheet" type="text/css" href="/css/index.css">
+</head>
+<style>
+    li a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+  section.pricing-section {
+    background-image: url("/images/clone.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  input[type=submit]{
+    background-color: blue;
+    padding: 7px;
+    border-radius: 6px;
+    font-size: large;
+    color: aliceblue;
+
+  }
+</style>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav class="navbar background h-nav">
+      <ul class="nav-list v-class">
+        <li><a href="/">Home</a></li>
+        <li><a href="/AboutUs">About</a></li>
+        <li><a href="/contact">Contact us</a></li>
+        <li><a href="/packages">Packages</a></li>
+      </ul>
+      <!-- <div class="rightNav v-class">
+        <input type="text" name="search" placeholder="search something" id="search" style="color:rgb(74, 74, 74)">
+        <button class="btn btn-sm">search</button>
+      </div> -->
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Pricing Section -->
+  <section class="pricing-section">
+    <div class="container">
+      <h2 class="pricing-title">Our Packages</h2>
+      <div class="pricing-table">
+        <div class="pricing-column">
+          <h3 class="pricing-column-title">Basic Package</h3>
+          <p class="pricing-column-price">Rs.10000</p>
+          <p class="pricing-column-description">Basic virtual voice assistant which mimics the person.</p>
+          <p class="pricing-column-description"> a specialist in machine learning and natural language processing will approach you.</p>
+          <p class="pricing-column-description">time taken:4 days</p>
+          <form action="/Basic" method="post">
+           <input type="submit" value="PROCEED">
+          </form>
+        </div>
+        <div class="pricing-column">
+          <h3 class="pricing-column-title">Premium Package</h3>
+          <p class="pricing-column-price">Rs.25000</p>
+          <p class="pricing-column-description"> virtual clone with advanced voice and image which exactly matches the customer.</p>
+          <p class="pricing-column-description">time taken:1 week days<br><br><br><br><br></p>
+          <form action="/Premium" method="post">
+          <input type="submit" value="PROCEED">
+          </form>
+        </div>
+        <div class="pricing-column">
+          <h3 class="pricing-column-title">Ultimate Package</h3>
+          <p class="pricing-column-price">Rs.30000</p>
+          <p class="pricing-column-description">virtual clone with advanced voice and image which exactly matches the customer.</p>
+          <p class="pricing-column-description">time taken:4 days <br><br><br><br><br></p>
+          <form action="/Ultimate" method="post">
+          <input type="submit" value="PROCEED">
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Virtual Clone. All rightsreserved.</p>
+  </footer>
+
+</body>
+</html>

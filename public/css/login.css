@@ -1,0 +1,110 @@
+body{
+    margin-top:20px;
+    color: #9b9ca1;
+    background-image: url(../images/clone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+}
+
+.nav-list {
+    display: flex;
+    width: 70%;
+    align-items: center;
+}
+
+.nav-list li {
+    padding: 23px;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Ubuntu',sans-serif;
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(111, 103, 136);
+}
+
+.nav-list li a:hover {
+    background-color: none;
+    color: rgb(172, 169, 169);
+}
+
+.rightNav {
+    width: 30%;
+    padding-right: 20px;
+    text-align: right;
+    display: flex;
+
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top:15px;
+}
+    form.form{
+       margin: 10%;
+       background-color: rgb(44, 66, 82);
+       color: rgb(227, 234, 240);
+       border: 2px solid white;
+       opacity: 1.2;
+       border-radius: 19px;
+    }
+
+    .text-secondary {
+        --bs-text-opacity: 1;
+        color: rgba(208, 212, 217, 0.5) !important;
+    }
+    .btn-success-soft {
+        color: #28a745;
+        background-color: rgba(40, 167, 69, 0.1);
+    }
+    .btn-danger-soft {
+        color: #dc3545;
+        background-color: rgba(220, 53, 69, 0.1);
+    }
+    input.form-control,textarea.form-control {
+        display: block;
+        padding: 0.5rem 1rem;
+        font-size: 0.9375rem;
+        font-weight: 400;
+        line-height: 1.6;
+        color: #29292e;
+        background-color: #680909;
+        background-clip: padding-box;
+        border: 1px solid #a595a3;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 5px;
+        -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+        transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    }
+    input.form-control::placeholder,textarea.form-control::placeholder{
+        color: rgb(187, 236, 236);
+    }
+    input.form-control:focus::placeholder, textarea.form-control:focus::placeholder{
+           color:#29292e
+    }
